@@ -1,16 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.leona.cursojava.aula17.labs;
 
 import java.util.Scanner;
 
-/**
- *
- * @author leona
- */
 public class Exer30 {
     
     public static void main (String [] args){
@@ -20,7 +11,7 @@ public class Exer30 {
          System.out.println("Entre com um número para gerar a tabuada:");
              int num = scan.nextInt();
              
-             boolean invalido = false;
+             boolean invalido = true;
              int numFinal, numInício;
              
              do{
@@ -31,18 +22,18 @@ public class Exer30 {
              System.out.println("Entre com o final da tabuada");
              numFinal = scan.nextInt();
              
-             if (numFinal < numInício){
-                 invalido =true;
-                 
+             if (numFinal > numInício){
+                 invalido = false;   
              }
                  
-             }while (!invalido);
+             }while (invalido);
              
               System.out.println("Tabuada de" + num + ":");
-              System.out.println("");
-                      
+              System.out.println("Começar por:" + numInício);
+              System.out.println("Terminar por:" + numFinal);
+              System.out.println( );        
               
-              for (int i=1; i<=10; i++){
+              for (int i=numInício; i<=numFinal; i++){
                System.out.println(num + "x" + i + " = " + (num*i));
               }
     }
