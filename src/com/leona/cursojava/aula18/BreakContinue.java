@@ -21,7 +21,7 @@ public class BreakContinue {
                 break;
             }
         }*/
-        /*for (int i = 0; i <= 4; i++) {
+ /*for (int i = 0; i <= 4; i++) {
             rotulo1:
             {
                 rotulo2:
@@ -45,7 +45,6 @@ public class BreakContinue {
             }
             System.out.println(i);
         }*/
-        
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Entre com um numero");
@@ -54,13 +53,14 @@ public class BreakContinue {
         System.out.println("Entre com um limite");
         int max = scan.nextInt();
 
-        for (int i=num; i<= max; i++) {
-          
+        for (int i = num; i <= max; i++) {
             if (i % 7 == 0) {
-                System.out.println("O valor de i é" + i);
                 continue;
+
             }
             System.out.println("O valor de i é:" + i);
         }
+        
     }
+    
 }
