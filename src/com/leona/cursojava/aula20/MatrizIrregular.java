@@ -9,7 +9,6 @@ public class MatrizIrregular {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Entre com o numero de pessoas que serao entrevistadas:");
-
         int numEntrevistados = scan.nextInt();
 
         String[][] nomesFilhos = new String[numEntrevistados][];
@@ -29,7 +28,7 @@ public class MatrizIrregular {
             }
         }
         for (int i = 0; i < nomesFilhos.length; i++) {
-            System.out.println("Pessoa" + i + "tem" + "filhos");
+            System.out.println("Pessoa" + i + " tem " + nomesFilhos[i].length + "filhos");
             for (int j = 0; j < nomesFilhos[i].length; j++) {
                 System.out.println(nomesFilhos[i][j]);
             }
