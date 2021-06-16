@@ -17,7 +17,7 @@ public class Exer02 {
         }
         for (int i = 0; i < numerosAleatorios.length; i++) {
             for (int j = 0; j < numerosAleatorios[i].length; j++) {
-                System.out.println(numerosAleatorios[i][j] + " ");
+                System.out.print(numerosAleatorios[i][j] + " ");
             }
             System.out.println();
         }
