@@ -81,8 +81,9 @@ public class Exer06 {
                 || //coluna1
                 (jogoVelha[0][1] == 'X' && jogoVelha[1][1] == 'X' && jogoVelha[2][1] == 'X')
                 || //coluna2
-                (jogoVelha[0][2] == 'X' && jogoVelha[1][2] == 'X' && jogoVelha[2][2] == 'X')){ 
-            //coluna3))    
+                (jogoVelha[0][2] == 'X' && jogoVelha[1][2] == 'X' && jogoVelha[2][2] == 'X')
+                || //coluna3
+                (jogoVelha[0][0] == 'X' && jogoVelha[1][1] == 'X' && jogoVelha[2][2] == 'X')) {    //diagonal  
             ganhou = true;
             System.out.println("Parabens, jogador 1 ganhou!");
         } else if ((jogoVelha[0][0] == 'O' && jogoVelha[0][1] == 'O' && jogoVelha[0][2] == 'O')
