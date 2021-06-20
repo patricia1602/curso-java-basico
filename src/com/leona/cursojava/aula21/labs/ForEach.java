@@ -24,10 +24,10 @@ public class ForEach {
         for (int nota : notas) {
             System.out.println(nota);
         }
-        
+
         //exemplo 02
         System.out.println("Exemplo com arrays multidimensionais");
-         double[][] notasAlunos = new double[3][4];
+        double[][] notasAlunos = new double[3][4];
 
         notasAlunos[0][0] = 10;
         notasAlunos[0][1] = 7;
@@ -43,10 +43,10 @@ public class ForEach {
         notasAlunos[2][1] = 9;
         notasAlunos[2][2] = 10;
         notasAlunos[2][3] = 7;
-        
-        for(double[] notasAluno : notasAlunos){
-            for(double nota : notasAluno){
-            System.out.print(nota + " ");
+
+        for (double[] notasAluno : notasAlunos) {
+            for (double nota : notasAluno) {
+                System.out.print(nota + " ");
             }
             System.out.println();
         }
