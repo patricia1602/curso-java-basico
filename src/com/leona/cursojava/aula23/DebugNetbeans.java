@@ -1,4 +1,4 @@
-package com.leona.cursojava.aula23.labs;
+package com.leona.cursojava.aula23;
 
 public class DebugNetbeans {
 

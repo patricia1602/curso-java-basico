@@ -1,4 +1,4 @@
-package com.leona.cursojava.aula24.labs;
+package com.leona.cursojava.aula24;
 
 public class TesteCarro {
 

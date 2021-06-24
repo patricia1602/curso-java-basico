@@ -1,4 +1,4 @@
-package com.leona.cursojava.aula21.labs;
+package com.leona.cursojava.aula21;
 
 import java.util.Random;
 
