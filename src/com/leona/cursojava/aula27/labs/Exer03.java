@@ -33,5 +33,15 @@ public class Exer03 {
             }
         }
         aluno.mostrarInfo();
+
+        for (int i = 0; i < aluno.nomeDisciplinas.length; i++) {
+            if (aluno.verificarAprovado(i)) {
+                System.out.println("Disciplina" + aluno.nomeDisciplinas[i] + "foi aprovado");
+            } else {
+                System.out.println("Disciplina" + aluno.nomeDisciplinas[i] + "reprovado");
+
+            }
+
+        }
     }
 }
