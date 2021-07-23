@@ -1,14 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.leona.cursojava.aula28;
 
-/**
- *
- * @author leona
- */
+import com.leona.cursojava.aula20.labs.Exer05;
+import com.leona.cursojava.aula20.labs.Exer06;
+import com.leona.cursojava.aula27.Carro;
+
 public class Pacotes {
+
+public static void main(String [] args){
+
+    Carro carro;
+    Carro carro2;
     
+    Exer06 exer06;
+    Exer05 exer05;
+    }    
 }
