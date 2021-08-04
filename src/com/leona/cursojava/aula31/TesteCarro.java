@@ -5,7 +5,7 @@ public class TesteCarro {
     public void main(String[]args){
     
         Carro carro = new Carro();
-        carro marca = "Fiat";
+        carro.marca = "Fiat";
         
     }
 }

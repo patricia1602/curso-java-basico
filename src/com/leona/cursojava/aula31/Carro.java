@@ -2,15 +2,16 @@ package com.leona.cursojava.aula31;
 
 public class Carro {
 
-   public String marca;
+    public String marca;
     String modelo;
     int numPassageiros;
     double capCombustivel;
-    double consumoCombustivel;
-    
-     void exibirAutonomia() {
+    private double consumoCombustivel;
+
+    void exibirAutonomia() {
         System.out.println("A autonomia do carro e:" + this.capCombustivel * this.consumoCombustivel + "Km");
     }
+
     double obterAutonomia() {
 
         System.out.println("Metodo obter autonomia foi chamado:");
@@ -18,10 +19,13 @@ public class Carro {
         return this.capCombustivel * this.consumoCombustivel;
     }
 
-    double calcularCombustivel(double km) {
+    private double dividekmPorConsumoCombustivel(double km) {
+        return km / this.consumoCombustivel;
+    }
 
-        double qtdCombustivel = km / this.consumoCombustivel;
+    public double calcularCombustivel(double km) {
 
-        return qtdCombustivel;
+        return this.dividekmPorConsumoCombustivel(km);
+
     }
 }
