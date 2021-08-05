@@ -10,8 +10,5 @@ public class TesteCarro {
 
         System.out.println(van.getMarca());
 
-        van.setModelo("Siena");
-
-        System.out.println(van.getModelo());
     }
 }
