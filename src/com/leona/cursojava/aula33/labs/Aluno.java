@@ -1,6 +1,6 @@
 package com.leona.cursojava.aula33.labs;
 
-public class Alunos {
+public class Aluno {
 
     private String nome;
     private String matricula;
@@ -8,12 +8,12 @@ public class Alunos {
     private String[] nomeDisciplinas;
     private double[][] notasDisciplinas;
 
-    public Alunos() {
+    public Aluno() {
         nomeDisciplinas = new String[3];
         notasDisciplinas = new double[3][4];
     }
-
-    public Alunos(String nome, String matricula, String nomeCurso) {
+   
+    public Aluno(String nome, String matricula, String nomeCurso) {
         this.nome = nome;
         this.matricula = matricula;
         this.nomeCurso = nomeCurso;
@@ -61,7 +61,7 @@ public class Alunos {
         this.notasDisciplinas = notasDisciplinas;
     }
 
-     public void mostrarInfo() {
+    public void mostrarInfo() {
         System.out.println("Nome:" + nome);
         System.out.println("Matricula:" + matricula);
         System.out.println("Nome do curso:" + nomeCurso);
@@ -81,14 +81,31 @@ public class Alunos {
 
         for (int i = 0; i < notasDisciplinas[indice].length; i++) {
             soma += notasDisciplinas[indice][i];
+
         }
 
         double media = soma / 4;
 
-        if (media >= 7) {
-            return true;
-        } else {
-            return false;
+        return media >= 7;
+    }
+
+    private double obterMedia(int indice) {
+
+        double soma = 0;
+
+        for (int i = 0; notasDisciplinas[indice].length >= i; i++) {
+            soma += notasDisciplinas[indice][i];
         }
+        double media = soma / 4;
+
+        return media;
+    }
+    
+    public void setNomeDisciplinasPos(int pos, String nomeDisciplina){
+        this.nomeDisciplinas [pos] = nomeDisciplina; 
+    }
+    
+    public void setNomePosIJ(int posI,int posJ, double nota){
+        this.notasDisciplinas[posI][posJ] = nota;
     }
 }
