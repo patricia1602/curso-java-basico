@@ -5,7 +5,7 @@ public class Alunos {
     private String nome;
     private String matricula;
     private String nomeCurso;
-    private String[] nomeDisciplinas; 
+    private String[] nomeDisciplinas;
     private double[][] notasDisciplinas;
 
     public Alunos() {
@@ -17,79 +17,78 @@ public class Alunos {
         this.nome = nome;
         this.matricula = matricula;
         this.nomeCurso = nomeCurso;
-         this.nomeDisciplinas = new String[3];
+        this.nomeDisciplinas = new String[3];
         this.notasDisciplinas = new double[3][4];
     }
 
-    /**
-     * @return the nome
-     */
     public String getNome() {
         return nome;
     }
 
-    /**
-     * @param nome the nome to set
-     */
     public void setNome(String nome) {
         this.nome = nome;
     }
 
-    /**
-     * @return the matricula
-     */
     public String getMatricula() {
         return matricula;
     }
 
-    /**
-     * @param matricula the matricula to set
-     */
     public void setMatricula(String matricula) {
         this.matricula = matricula;
     }
 
-    /**
-     * @return the nomeCurso
-     */
     public String getNomeCurso() {
         return nomeCurso;
     }
 
-    /**
-     * @param nomeCurso the nomeCurso to set
-     */
     public void setNomeCurso(String nomeCurso) {
         this.nomeCurso = nomeCurso;
     }
 
-    /**
-     * @return the nomeDisciplinas
-     */
     public String[] getNomeDisciplinas() {
         return nomeDisciplinas;
     }
 
-    /**
-     * @param nomeDisciplinas the nomeDisciplinas to set
-     */
     public void setNomeDisciplinas(String[] nomeDisciplinas) {
         this.nomeDisciplinas = nomeDisciplinas;
     }
 
-    /**
-     * @return the notasDisciplinas
-     */
     public double[][] getNotasDisciplinas() {
         return notasDisciplinas;
     }
 
-    /**
-     * @param notasDisciplinas the notasDisciplinas to set
-     */
     public void setNotasDisciplinas(double[][] notasDisciplinas) {
         this.notasDisciplinas = notasDisciplinas;
     }
 
-   
+     public void mostrarInfo() {
+        System.out.println("Nome:" + nome);
+        System.out.println("Matricula:" + matricula);
+        System.out.println("Nome do curso:" + nomeCurso);
+
+        for (int i = 0; i < notasDisciplinas.length; i++) {
+            System.out.println("Nota da Disciplina" + nomeDisciplinas[i]);
+            for (int j = 0; j < notasDisciplinas[i].length; j++) {
+                System.out.println(notasDisciplinas[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    public boolean verificarAprovado(int indice) {
+
+        double soma = 0;
+
+        for (int i = 0; i < notasDisciplinas[indice].length; i++) {
+            soma += notasDisciplinas[indice][i];
+        }
+
+        double media = soma / 4;
+
+        if (media >= 7) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
