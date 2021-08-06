@@ -32,10 +32,24 @@ public class Aluno {
 
         double media = soma / 4;
 
-        if (media >= 7) {
+        if (obterMedia(indice) >= 7) {
             return true;
         } else {
             return false;
         }
-    }
-}
+
+        boolean obterMedia
+        (int indice
+        
+            ){        
+           
+         soma = 0;
+
+            for (int i = 0; notasDisciplinas[indice].length >= i; i++) {
+                soma += notasDisciplinas[indice][i];
+
+                double media = soma / 4;
+
+                return media;
+            }
+        }
