@@ -1,6 +1,15 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package com.leona.cursojava.aula34.labs;
 
-public class Calculadora {
+/**
+ *
+ * @author leona
+ */
+public class Fatorial {
 
     public static int soma(int num1, int num2) {
         return num1 + num2;
@@ -30,6 +39,8 @@ public class Calculadora {
         return total;
     }
 
+    //5! = 5 * 4 * 3 * 2 * 1 = 120
+    //0! = 1
     public static int fatorial(int num) {
 
         if (num == 0) {
@@ -39,10 +50,8 @@ public class Calculadora {
         int total = 1;
         for (int i = num; i > 1; i--) {
             total *= i;
-
         }
 
         return total;
-
     }
 }
