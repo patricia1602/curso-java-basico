@@ -26,6 +26,7 @@
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula14/IfElse.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula24/labs/Exer03.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula20/Matrizes.java</file>
+            <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula36/Telefone.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula19/labs/Exer26.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula19/labs/Exer30.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula20/MatrizTridimensional.java</file>
@@ -86,6 +87,7 @@
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula30/Carro.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula33/labs/Exer01.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula17/labs/Exer27.java</file>
+            <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula36/Teste.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula11/VariaveisPontoFlutuantes.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula34/labs/Exer02.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula15/labs/Exer12.java</file>
@@ -125,6 +127,7 @@
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula19/labs/Exer20.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula17/labs/Exer02.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula27/labs/Exer03.java</file>
+            <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula36/Endereco.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula15/labs/Exer15.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula23/DebugNetbeans.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula17/labs/Exer16.java</file>
@@ -150,12 +153,14 @@
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula13/OperadoresAritmeticos.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula17/labs/Exer34.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/aula05/HelloWorld.java</file>
+            <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula35/labs/Calculadora.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula15/labs/Exer13.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula17/labs/Exer29.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula24/labs/Exer05.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula17/labs/Exer06.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula11/VariaveisBoolean.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula17/labs/Exer31.java</file>
+            <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula35/labs/Exer01.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula19/labs/Exer15.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula17/labs/Exer22.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula17/labs/Exer28.java</file>
@@ -166,7 +171,9 @@
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula17/labs/Exer19.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula17/labs/Exer13.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula17/labs/Exer32.java</file>
+            <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula35/labs/Exer02.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/aula07/Erro01.java</file>
+            <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula36/Contato.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula11/SequenciaScape.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula13/labs/Exer02.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula20/labs/Exer04.java</file>

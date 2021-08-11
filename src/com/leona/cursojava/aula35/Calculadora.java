@@ -15,7 +15,7 @@ public class Calculadora {
     //0! = 1
     public static int fatorialNaoRecursivo(int num) {
 
-        if (num == 0) {
+         if (num == 0) {
             return 1;
         }
 
