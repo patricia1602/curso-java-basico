@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.leona.cursojava.aula38;
+package com.leona.cursojava.aula39;
 
 /**
  *
@@ -15,10 +15,13 @@ public class Pessoa {
     private String endereco;
     private String telefone;
     private String cpf;
-    
     private String telefoneCelular;
 
+    private String nomeVisibilidade;
+    
     public Pessoa(){}
+        nomeVisibilidade = "Manuela";
+        
     public Pessoa(String nome, String endereco, String telefone) {
         super();
         this.nome = nome;
@@ -94,6 +97,20 @@ public class Pessoa {
      */
     public void setTelefoneCelular(String telefoneCelular) {
         this.telefoneCelular = telefoneCelular;
+    }
+
+    /**
+     * @return the nomeVisibilidade
+     */
+    public String getNomeVisibilidade() {
+        return nomeVisibilidade;
+    }
+
+    /**
+     * @param nomeVisibilidade the nomeVisibilidade to set
+     */
+    public void setNomeVisibilidade(String nomeVisibilidade) {
+        this.nomeVisibilidade = nomeVisibilidade;
     }
 
 }

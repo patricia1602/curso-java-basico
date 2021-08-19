@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.leona.cursojava.aula38;
+package com.leona.cursojava.aula39.teste;
+
+import com.leona.cursojava.aula39.Pessoa;
 
 /**
  *
@@ -14,6 +16,14 @@ public class Aluno extends Pessoa {
     private String curso;
     private double[] notas;
 
+    public void  verificarAcesso(){
+    
+       this.setNomeVisibilidade("Manuela");
+       super.setNomeVisibilidade("Manuela");
+       
+       super.setNomeVisibilidade("Manuela");
+    }
+    
     public Aluno() {
         super();
     }
@@ -64,4 +74,6 @@ public class Aluno extends Pessoa {
         
         this.setCpf("123456789");
     }
+    
+    
 }

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.leona.cursojava.aula38;
+package com.leona.cursojava.aula39;
 
 /**
  *
@@ -13,6 +13,14 @@ public class Professor extends Pessoa {
 
     private double salario;
     private String nomeCurso;
+    
+    public void verificarAcesso(){
+    
+        this.setNomeVisibilidade("Manuela");
+        super.setNomeVisibilidade("Manuela");
+        
+        this.setNomeVisibilidade("Manuela");
+    }
     
     /**
      * @return the salario

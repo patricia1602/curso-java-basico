@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.leona.cursojava.aula38;
+package com.leona.cursojava.aula39;
 
 /**
  *
@@ -11,8 +11,5 @@ package com.leona.cursojava.aula38;
  */
 public class Teste {
     
-    public static void main(String[] args) {
-        
-        
-    }
+    
 }
