@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.leona.cursojava.aula40;
+package com.leona.cursojava.aula41;
 
 /**
  *
@@ -71,5 +71,11 @@ public class Aluno extends Pessoa {
         s += super.getEndereco();
 
         return s;
+    }
+
+    //@Override
+    public void imprimirEtiquetaEndereco() {
+   
+        System.out.println(this.obterEtiquetaEndereco());
     }
 }
