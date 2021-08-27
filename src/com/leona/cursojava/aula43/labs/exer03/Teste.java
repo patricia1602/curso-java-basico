@@ -38,7 +38,7 @@ public class Teste {
 
         System.out.println("----------------------------");
         for (Animal animal : animais) {
-            System.err.println(animal);
+            System.out.println(animal);
             System.out.println("----------------------------");
         }
     }
