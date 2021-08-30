@@ -9,7 +9,7 @@ package com.leona.cursojava.aula42;
  *
  * @author leona
  */
-public final class Contantes {
+public final class Constantes {
     
     public static final String url_BLOG = "http://loiane.com";
     public static final String CURSO_COMPLETO = "http://loiane.training";
