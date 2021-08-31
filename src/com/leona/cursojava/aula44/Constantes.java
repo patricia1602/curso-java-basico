@@ -10,5 +10,8 @@ package com.leona.cursojava.aula44;
  * @author leona
  */
 public interface Constantes {
-    
+
+     String URL_BLOG ="htpp://loiane.com";
+     String CURSO_COMPLETO = "htpp://loiane.training";
+     
 }
