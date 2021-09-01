@@ -9,7 +9,7 @@ package com.leona.cursojava.aula46;
  *
  * @author leona
  */
-public class BancoMySQL implements BancoDados{
+public class BancoMySQL implements BancoDados {
 
     @Override
     public void abrirConexao() {
@@ -54,5 +54,5 @@ public class BancoMySQL implements BancoDados{
     @Override
     public void drop(String querry) {
     }
-    
+
 }
