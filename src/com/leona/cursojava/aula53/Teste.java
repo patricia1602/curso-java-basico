@@ -80,7 +80,13 @@ public class Teste {
         DiaSemana domingo = DiaSemana.DOMINGO;
 
         System.out.println("Teste utilizando enum no Java");
-
+        imprimeDiaSemana(segunda);
+        imprimeDiaSemana(terca);
+        imprimeDiaSemana(quarta);
+        imprimeDiaSemana(quinta);
+        imprimeDiaSemana(sexta);
+        imprimeDiaSemana(sabado);
+        imprimeDiaSemana(domingo);
     }
 
     private static void imprimeDiaSemana(DiaSemana dia) {
