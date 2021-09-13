@@ -10,11 +10,23 @@ package com.leona.cursojava.aula54;
  * @author leona
  */
 public class Data {
-    
+
     private int dia;
     private int mes;
     private int ano;
     private DiaSemana diaSemana;
+
+    public Data() {
+        super();
+    }
+
+    public Data(int dia, int mes, int ano, DiaSemana diaSemana) {
+        super();
+        this.dia = dia;
+        this.mes = mes;
+        this.ano = ano;
+        this.diaSemana = diaSemana;
+    }
 
     /**
      * @return the dia
@@ -71,5 +83,5 @@ public class Data {
     public void setDiaSemana(DiaSemana diaSemana) {
         this.diaSemana = diaSemana;
     }
-    
+
 }
