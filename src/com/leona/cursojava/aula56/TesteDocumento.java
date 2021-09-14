@@ -17,7 +17,7 @@ public class TesteDocumento {
             System.out.println(doc + " - " + doc.geraNumeroTeste());
 
         }*/
-        Pessoa pf = new Pessoa();
+         Pessoa pf = new Pessoa();
         pf.setTipoDocumento(Enum.valueOf(TipoDocumento.class, "CPF"));
         pf.setNumeroDocumento(pf.getTipoDocumento().geraNumeroTeste());
         System.out.println(pf);

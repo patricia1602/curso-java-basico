@@ -19,6 +19,7 @@
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula43/labs/exer02/Contribuinte.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula49/TestandoFinally.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula52/labs/Agenda.java</file>
+            <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula56/Pessoa.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula37/Teste.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula33/labs/Exer03.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula46/labs/Figura2D.java</file>
@@ -38,22 +39,26 @@
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula39/Teste.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula42/Teste.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula54/TesteEnum.java</file>
+            <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula56/TipoDocumento.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula54/Data.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula46/SqIDDL.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/aula05/OláMundo.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula43/labs/exer03/Animal.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula36/labs/Aluno.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula46/labs/DimesaoSuperficial.java</file>
+            <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula55/TesteEnum.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula46/BancoDados.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula50/ExceptionGenerica.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula44/Animal.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula46/labs/Cilindro.java</file>
+            <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula57/TesteWrapper.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula37/Professor.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula36/labs/Professor.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula43/labs/exer03/Peixe.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula45/Pessoa.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula53/DiaSemana.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula43/labs/exer01/Teste.java</file>
+            <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula56/TesteDocumento.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula35/labs/Exer01.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula52/DivisaoNaoExata.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula48/MultiploMatchJava7.java</file>
@@ -71,7 +76,9 @@
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula43/labs/exer02/PessoaJuridica.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula46/labs/Cubo.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula52/labs/AgendacheiaException.java</file>
+            <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula55/TesteEnum2.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula52/labs/Teste.java</file>
+            <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula56/labs/Calculadora.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula36/labs/Contato.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula45/Teste.java</file>
             <file>file:/C:/Users/leona/Documents/NetBeansProjects/curso-java-basico/src/com/leona/cursojava/aula46/labs/DimensaoVolumetrica.java</file>
