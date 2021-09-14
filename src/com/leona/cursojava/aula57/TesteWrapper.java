@@ -30,25 +30,25 @@ public class TesteWrapper {
         Long num10 = new Long(100000l);
         Float num11 = new Float(3.5f);
         Double num12 = new Double(3.5555);
-        Boolean num13 = new Boolean(true);
-        Character num14 = new Character('b');
+        Boolean flag2 = new Boolean(true);
+        Character b = new Character('b');
 
-        Integer num15 = new Integer("100000");
+        Integer num13 = new Integer("100000");
 
-        double num16 = new Double("3.5"); //3,5 para quem usar PC portugues Brasil
+        double num14 = new Double("3.5"); //3,5 para quem usar PC portugues Brasil
 
-        System.out.println(num15.intValue());
-        System.out.println(num15.longValue());
+        System.out.println(num13.intValue());
+        System.out.println(num13.longValue());
 
-        Long num17 = num15.longValue();
+        Long num15 = num13.longValue();
 
-        int num18 = Integer.parseInt("100000");
+        int num16 = Integer.parseInt("100000");
 
-        double num19 = Double.parseDouble("3.555");
-        System.out.println(num19);
+        double num17 = Double.parseDouble("3.555");
+        System.out.println(num17);
 
-        Integer num20 = Integer.valueOf(1343);
-        System.out.println(num20);
+        Integer num18 = Integer.valueOf(1343);
+        System.out.println(num18);
 
         System.out.println(Objects.equals(num9, num13));
     }
