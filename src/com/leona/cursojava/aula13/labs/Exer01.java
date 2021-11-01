@@ -4,7 +4,7 @@ public class Exer01 {
 
     public static void maim(String[]args){
         
-        System.out.println("Alo mundo");
+        System.out.println("Ola mundo");
         
     }
 }
