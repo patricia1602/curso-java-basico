@@ -7,11 +7,13 @@ public class ThreadSemaforo implements Runnable {
 
     public CorSemaforo cor;
     private boolean parar;
+    private boolean corMudou;
 
     public ThreadSemaforo() {
         this.cor = CorSemaforo.VERMELHO;
 
         this.parar = false;
+        this.corMudou = false;
 
         new Thread(this).start();
     }
@@ -21,7 +23,7 @@ public class ThreadSemaforo implements Runnable {
 
         while (!parar) {
             try {
-                switch (this.cor) {
+                /*switch (this.cor) {
                     case VERMELHO:
                         Thread.sleep(2000);
                         break;
@@ -31,9 +33,10 @@ public class ThreadSemaforo implements Runnable {
                     case VERDE:
                         Thread.sleep(1000);
                         break;
-                    default:
+                     default:
                         break;
-                }
+                }*/
+                Thread.sleep(this.cor.getTempoEspera());
                 this.mudarCor();
             } catch (InterruptedException e) {
                 e.printStackTrace();
@@ -55,8 +58,24 @@ public class ThreadSemaforo implements Runnable {
                 break;
             default:
                 break;
-
         }
+        this.corMudou = true;
+        notify();
+    }
+
+    public synchronized void esperaCorMudar() {
+        while (!this.corMudou) {
+            try {
+                wait();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+        this.corMudou = false;
+    }
+
+    public synchronized void deligarSemaforo() {
+
     }
 
     public CorSemaforo getCor() {

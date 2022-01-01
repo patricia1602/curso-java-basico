@@ -12,11 +12,8 @@ public class SimuladorSemaforo {
         for (int i = 0; i < 10; i++) {
 
             System.out.println(semaforo.getCor());
-            try {
-                Thread.sleep(500);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+            semaforo.esperaCorMudar();
         }
+        semaforo.deligarSemaforo();
     }
 }
