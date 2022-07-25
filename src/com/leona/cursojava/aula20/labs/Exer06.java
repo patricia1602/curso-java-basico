@@ -55,7 +55,7 @@ public class Exer06 {
             linha--;
             coluna--;
             if (jogoVelha[linha][coluna] == 'X' || jogoVelha[linha][coluna] == 'O') {
-                System.out.println("Posiçao ja usada, tente novamente");
+                System.out.println("Posiçao já usada, tente novamente");
             } else { //jogada valida
                 jogoVelha[linha][coluna] = sinal;
                 jogada++;
@@ -66,44 +66,48 @@ public class Exer06 {
                 for (int j = 0; j < jogoVelha[i].length; j++) {
                     System.out.print(jogoVelha[i][j] + " | ");
                 }
+                System.out.println();
             }
-            System.out.println();
-        }
 
-        //verificar se tem ganhador
-        if ((jogoVelha[0][0] == 'X' && jogoVelha[0][1] == 'X' && jogoVelha[0][2] == 'X')
-                || //linha1             
-                (jogoVelha[1][0] == 'X' && jogoVelha[1][1] == 'X' && jogoVelha[1][2] == 'X')
-                || //linha2
-                (jogoVelha[2][0] == 'X' && jogoVelha[2][1] == 'X' && jogoVelha[2][2] == 'X')
-                || //linha3
-                (jogoVelha[0][0] == 'X' && jogoVelha[1][0] == 'X' && jogoVelha[2][0] == 'X')
-                || //coluna1
-                (jogoVelha[0][1] == 'X' && jogoVelha[1][1] == 'X' && jogoVelha[2][1] == 'X')
-                || //coluna2
-                (jogoVelha[0][2] == 'X' && jogoVelha[1][2] == 'X' && jogoVelha[2][2] == 'X')
-                || //coluna3
-                (jogoVelha[0][0] == 'X' && jogoVelha[1][1] == 'X' && jogoVelha[2][2] == 'X')) {    //diagonal  
-            ganhou = true;
-            System.out.println("Parabens, jogador 1 ganhou!");
-        } else if ((jogoVelha[0][0] == 'O' && jogoVelha[0][1] == 'O' && jogoVelha[0][2] == 'O')
-                || //linha 1 
-                (jogoVelha[1][0] == 'O' && jogoVelha[1][1] == 'O' && jogoVelha[1][2] == 'O')
-                || //linha2
-                (jogoVelha[2][0] == 'O' && jogoVelha[2][1] == 'O' && jogoVelha[2][2] == 'O')
-                || //linha3
-                (jogoVelha[0][0] == 'O' && jogoVelha[1][0] == 'O' && jogoVelha[2][0] == 'O')
-                || //coluna1
-                (jogoVelha[0][1] == 'O' && jogoVelha[1][1] == 'O' && jogoVelha[2][1] == 'O')
-                || //coluna2
-                (jogoVelha[0][2] == 'O' && jogoVelha[1][2] == 'O' && jogoVelha[2][2] == 'O')
-                || //coluna3
-                (jogoVelha[0][0] == 'O' && jogoVelha[1][1] == 'O' && jogoVelha[2][2] == 'O')) {    //diagonal          
-            ganhou = true;
-            System.out.println("Parabens, jogador 2 ganhou!");
-        } else if (jogada > 9) {
-            ganhou = true;
-            System.out.println("Ninguem ganhou essa partida");
+            //verificar se tem ganhador
+            if ((jogoVelha[0][0] == 'X' && jogoVelha[0][1] == 'X' && jogoVelha[0][2] == 'X')
+                    || //linha1             
+                    (jogoVelha[1][0] == 'X' && jogoVelha[1][1] == 'X' && jogoVelha[1][2] == 'X')
+                    || //linha2
+                    (jogoVelha[2][0] == 'X' && jogoVelha[2][1] == 'X' && jogoVelha[2][2] == 'X')
+                    || //linha3
+                    (jogoVelha[0][0] == 'X' && jogoVelha[1][0] == 'X' && jogoVelha[2][0] == 'X')
+                    || //coluna1
+                    (jogoVelha[0][1] == 'X' && jogoVelha[1][1] == 'X' && jogoVelha[2][1] == 'X')
+                    || //coluna2
+                    (jogoVelha[0][2] == 'X' && jogoVelha[1][2] == 'X' && jogoVelha[2][2] == 'X')
+                    || //coluna3
+                    (jogoVelha[0][0] == 'X' && jogoVelha[1][1] == 'X' && jogoVelha[2][2] == 'X')
+                    || //diagonal
+                    (jogoVelha[0][2] == 'X' && jogoVelha[1][1] == 'X' && jogoVelha[2][0] == 'X')) {  //diagonal inversa
+                ganhou = true;
+                System.out.println("Parabéns, jogador 1 ganhou!");
+            } else if ((jogoVelha[0][0] == 'O' && jogoVelha[0][1] == 'O' && jogoVelha[0][2] == 'O')
+                    || //linha 1 
+                    (jogoVelha[1][0] == 'O' && jogoVelha[1][1] == 'O' && jogoVelha[1][2] == 'O')
+                    || //linha2
+                    (jogoVelha[2][0] == 'O' && jogoVelha[2][1] == 'O' && jogoVelha[2][2] == 'O')
+                    || //linha3
+                    (jogoVelha[0][0] == 'O' && jogoVelha[1][0] == 'O' && jogoVelha[2][0] == 'O')
+                    || //coluna1
+                    (jogoVelha[0][1] == 'O' && jogoVelha[1][1] == 'O' && jogoVelha[2][1] == 'O')
+                    || //coluna2
+                    (jogoVelha[0][2] == 'O' && jogoVelha[1][2] == 'O' && jogoVelha[2][2] == 'O')
+                    || //coluna3
+                    (jogoVelha[0][0] == 'O' && jogoVelha[1][1] == 'O' && jogoVelha[2][2] == 'O')
+                    || //diagonal
+                    (jogoVelha[0][2] == 'O' && jogoVelha[1][1] == 'O' && jogoVelha[2][0] == 'O')) {   //diagonal inversa
+                ganhou = true;
+                System.out.println("Parabéns, jogador 2 ganhou!");
+            } else if (jogada > 9) {
+                ganhou = true;
+                System.out.println("Ninguém ganhou essa partida");
+            }
         }
     }
 }
